@@ -27,3 +27,8 @@ fields:
       required: false
     label: nome
   label: field group
+- name: include
+  type: include
+  config: {}
+  template: teste
+  label: include
