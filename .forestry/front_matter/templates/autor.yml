@@ -1,4 +1,14 @@
 ---
 label: autor
 hide_body: false
-fields: []
+fields:
+- name: nome
+  type: text
+  config:
+    required: false
+  label: nome
+- name: sobrenome
+  type: text
+  config:
+    required: false
+  label: sobrenome
