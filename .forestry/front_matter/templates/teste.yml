@@ -2,33 +2,8 @@
 label: teste
 hide_body: true
 fields:
-- name: teste
-  type: field_group
-  config: {}
-  fields:
-  - name: nome
-    type: text
-    config:
-      required: false
-    label: nome
-  - name: cargo
-    type: text
-    config:
-      required: false
-    label: cargo
-  label: teste
-- name: field_group
-  type: field_group
-  config: {}
-  fields:
-  - name: nome
-    type: text
-    config:
-      required: false
-    label: nome
-  label: field group
 - name: include
   type: include
   config: {}
-  template: teste
+  template: autor
   label: include
