@@ -2,18 +2,6 @@
 label: teste
 hide_body: true
 fields:
-- name: include
-  type: include
-  config: {}
-  template: autor
-  label: include
-- name: selec
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: selec
 - name: repeat
   type: field_group_list
   fields:
