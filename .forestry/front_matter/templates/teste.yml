@@ -1,4 +1,19 @@
 ---
 label: teste
 hide_body: true
-fields: []
+fields:
+- name: teste
+  type: field_group
+  config: {}
+  fields:
+  - name: nome
+    type: text
+    config:
+      required: false
+    label: nome
+  - name: cargo
+    type: text
+    config:
+      required: false
+    label: cargo
+  label: teste
