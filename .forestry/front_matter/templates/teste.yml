@@ -30,5 +30,5 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: nome
   label: repeat
