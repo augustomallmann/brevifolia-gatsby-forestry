@@ -7,3 +7,28 @@ fields:
   config: {}
   template: autor
   label: include
+- name: selec
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: selec
+- name: repeat
+  type: field_group_list
+  fields:
+  - name: nome
+    type: text
+    config:
+      required: false
+    label: Nome
+  - name: sobrenome
+    type: text
+    config:
+      required: false
+    label: sobrenome
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: repeat
