@@ -7,7 +7,7 @@ fields:
   label: title
 - name: author
   type: select
-  default: ''
+  default: nome
   config:
     required: true
     options: []
@@ -15,7 +15,7 @@ fields:
       type: documents
       section: author-list
       file: content/data/authors.yaml
-      path: teste
+      path: selec
   label: author
   description: Enter author of post
 - name: date
