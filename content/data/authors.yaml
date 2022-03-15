@@ -1,4 +1,6 @@
+---
 authors:
+- title: ''
 - title:
     name: Robert Thoreau
 - Allen Ginsberg
@@ -7,3 +9,14 @@ authors:
 - Grace Hopper
 - Ralph Waldo Emerson
 - Watson & Crick
+teste:
+  nome: ''
+  cargo: ''
+nome: ''
+sobrenome: ''
+selec: []
+repeat:
+- nome: Teste
+  sobrenome: Teste 2
+- nome: Augusto
+  sobrenome: Mallmann

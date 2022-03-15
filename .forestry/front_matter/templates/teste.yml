@@ -20,3 +20,5 @@ fields:
     max: 
     labelField: nome
   label: repeat
+pages:
+- content/data/authors.yaml
