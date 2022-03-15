@@ -17,3 +17,13 @@ fields:
       required: false
     label: cargo
   label: teste
+- name: field_group
+  type: field_group
+  config: {}
+  fields:
+  - name: nome
+    type: text
+    config:
+      required: false
+    label: nome
+  label: field group
