@@ -1,0 +1,34 @@
+---
+label: blog v3
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: excerpt
+  label: excerpt
+- type: file
+  name: img_featured
+  label: img_featured
+- type: list
+  name: authors
+  label: authors
+- type: list
+  name: categories
+  label: categories
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: date_updated
+  label: date_updated
+- type: text
+  name: og_image
+  label: og_image
+- type: boolean
+  name: meta_tag_robots_no_index
+  label: meta_tag_robots_no_index
