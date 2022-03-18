@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _i18n/en/_posts
   label: Buttons
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory

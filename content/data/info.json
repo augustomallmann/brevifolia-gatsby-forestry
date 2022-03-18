@@ -6,5 +6,19 @@
     "twitter_handle": "forestryio",
     "github_handle": "forestryio"
   },
-  "background_color": "#B1BCBC"
+  "background_color": "#B1BCBC",
+  "buttons": [
+    {
+      "id": "Click here",
+      "en": "Clique aqui",
+      "es": "Clique",
+      "pt_br": "C"
+    },
+    {
+      "id": "read-more",
+      "en": "Read More",
+      "es": "Leer Más",
+      "pt_br": "Leia Mais"
+    }
+  ]
 }
