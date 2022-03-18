@@ -1,4 +1,33 @@
 ---
 label: Buttons
 hide_body: true
-fields: []
+fields:
+- name: buttons
+  type: field_group_list
+  fields:
+  - name: id
+    type: text
+    config:
+      required: false
+    label: ID
+    description: A unique identifier for the button.
+  - name: en
+    type: text
+    config:
+      required: false
+    label: English
+  - name: es
+    type: text
+    config:
+      required: false
+    label: Spanish
+  - name: pt_br
+    type: text
+    config:
+      required: false
+    label: Portuguese
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Buttons
